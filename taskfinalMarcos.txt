@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- o atributo ten que ver coa compatibilidade do navegador onde se consulta a páxina web (http-equiv=”X-UA-Compatible”), e onde no atributo content, o valor ie=edge fai referencia ao antigo navegador Internet Explorer-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- A metaetiqueta da ventana gráfica indica que o sitio web seguirá o ancho do dispositivo no que estea o usuario, xa sexa un móbil ou o escritorio-->
+		
+		<link rel="stylesheet" href="marcos.css.css" />
+		<link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css" /> <!-- Cando a ventana e menor a 768px toma a referencia de esta stylesheet, así customizamos para o móvil se queremos cambiar o layout-->
+		
+		
+		<title>Portfolio Marcos | Benvidos</title>
+	</head>
+	<body>
+			<nav id="navbar">
+				<div class="container">
+					<a href="#mainheader" class="logo"><img src="img/logojuan.png.png" alt="Logotipo de Marcos" /></a>
+					<ul>
+						<li><a href="#projects">Proxectos</a></li>
+						<li><a href="#about">Acerca de min</a></li>
+						<li><a href="#contact">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+		
+
+		<div id="showcase">
+			<div class="container">
+					<a href="#projects" class="btn btn-outline">Proxectos</a>
+				</div>
+			
+		</div>
+<section id="projects">
+			<div class="container">
+				<h2>Proxectos</h2>
+				<div class="projects-row">
+					<div class="projects-row-detail">
+						<a href="https://www.youtube.com/watch?v=qo-mfOD89Oc&t=203s"> <img src="img/prox_1_serxio.png" id="cansat" alt=" proxecto Cansat" /> </a> <!--Introducimos un enlace a un vídeo pinchando nunha foto  -->
+					</div>
+					<div class="projects-row-detail">
+						 <img src="img/logosj33.jpg" id="scouts" alt=" Grupo Scout San Jorge 33" />
+					</div>
+					<div class="projects-row-detail">
+						<a href="https://www.youtube.com/channel/UC8JvUJgI82mK3gGdKH6B62g"> <img src="img/logoyt.jpg" alt="Youtuber de Éxito" /> </a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<h2>Acerca de min</h2>
+				<div class="about-row">
+					<div class="about-row-experience">
+						<h4>Experiencia</h4>
+						<p class="large">Estudante do Eusebio da Guarda</p>
+						<p class="large">Estudante de Inglés na EOI de A Coruña </p>
+						<p class="large">Vendedor variado en Wallapop</p>
+						<p class="large">Jugador profesional de Friv</p>
+						<p class="large">Scout</p>
+					</div>
+					<div class="about-row-me">
+						<h4>Acerca de min</h4>
+						<p>
+							Pícaro, amable, guapo y sonriente. Gústalle axudar as persoas d seu entorno, coñecer xente, a montaña e as actividades ao aire libre. Os seus soños baséanse en chegar vivo aos 30 cunha vida chea de momentos incribles, chegando a ser rico e exitoso cunha experiencia en contar billetes a dúas mans.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2>Contacto</h2>
+				<div class="contact-row">
+					<div class="contact-row-icon">
+						<img src="img/icon-address.png" alt="" />
+						<p>Praza de Pontevedra</p>
+					</div>
+					<div class="contact-row-icon">
+						<a href="https://mail.google.com/mail/u/0/?pli=1#inbox"> <img src="img/icon-mail.png" alt="" /> </a> 
+						<p>athleticpou@gmail.com</p>
+					</div>
+					<div class="contact-row-icon">
+						<img src="img/icon-phone.png" alt="" />
+						<p>333-333-333</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="mainfooter">
+			<div class="container">
+				<a href="https://www.instagram.com/marcosviader_33/?hl=af" class="instagram-follow-button" data-show-count="false"
+					>Follow @marcosviader_33</a
+				>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</footer>
+	</body>
+</html>
